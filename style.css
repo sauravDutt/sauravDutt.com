@@ -1,5 +1,18 @@
 body {
     margin: 0;
     padding: 0;
-    
+
+}
+@font-face {
+    font-family: "Logo";
+    src: url("./TheHistoriaDemo.otf");
+    font-style: normal;
+}
+
+
+.navbar-outter {
+    height: 7vh;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 10px 5px 15px 1px #00000024;
 }
