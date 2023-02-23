@@ -20,7 +20,7 @@ body {
     justify-content: space-around;
     align-items: center;
     display: grid;
-    grid-template-columns:40% 57% 3%;
+    grid-template-columns:30% 67% 3%;
 }
 .navbar-outter div{
     height: 50px;
@@ -40,9 +40,6 @@ body {
 }
 .background-illustration {
     border-radius: 10px;
-    padding-top: -50px;
-    background-image: linear-gradient(to right, rgba(241, 241, 241, 0.22) , rgba(198, 146, 231, 0.385)), url('./res/img/nav.png');
-    background-size: cover;
     box-shadow: 10px 5px 20px 1px #0000002b;
 }
 
