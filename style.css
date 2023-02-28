@@ -20,7 +20,7 @@ body {
     justify-content: space-around;
     align-items: center;
     display: grid;
-    grid-template-columns:30% 67% 3%;
+    grid-template-columns:50% 30%;
 }
 .navbar-outter div{
     height: 50px;
