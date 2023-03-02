@@ -1,28 +1,20 @@
 {
-    "Illustrations": [
-        {
-            "id" : "1",
-            "imageUrl":"./res/img/snape.jpeg",
-            "title" : "Snape",
-            "description": [
-                {
-                    "intro": "This is going to be some thing about Snape a paragraph",
-                    "price": "This will be a number value in BTC or Ether",
-                    "Available": null
-                }
-            ]
-        },
-        {
-            "id" : "2",
-            "imageUrl":"./res/img/goku.jpeg",
-            "title" : "Goku",
-            "description": [
-                {
-                    "intro": "This is going to be some thing about Goku a paragraph",
-                    "price": "This will be a number value in BTC or Ether",
-                    "Available": null
-                }
-            ]
-        }
-    ]
-}
+        "Illustrations": [
+            {
+                "id" : "1",
+                "imageUrl":"./res/img/snape.jpeg",
+                "title" : "Snape",
+                "description": "This is going to be some thing about Snape a paragraph",
+                "price": "This will be a number value in BTC or Ether",
+                "Available": null
+            },
+            {
+                "id" : "2",
+                "imageUrl":"./res/img/goku.jpeg",
+                "title" : "Goku",
+                "description": "This is going to be some thing about Goku a paragraph",
+                "price": "This will be a number value in BTC or Ether",
+                "Available": null
+            }
+        ]
+    }
