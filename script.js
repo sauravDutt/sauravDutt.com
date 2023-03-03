@@ -4,8 +4,16 @@ fetch("art.json")
         .then(data => {
             artIllustrations = data.Illustrations;
             console.log(artIllustrations);
+            var dynamicCards= '';
             artIllustrations.forEach(el => {
-            console.log("This is the Title of Illustrations :  -  "+el.title);
-            console.log("This is the Description of Illustrations :  -  "+el.description);
+                dynamicCards += `
+                <div>
+                    <p class="card-info">
+                        ${el.description}  
+                    </p>
+                    <img src=${el.imageUrl} class="card-image"/>
+                </div>
+                `
         });
+        document.getElementById('bannerContainer').innerHTML = dynamicCards;
     });
