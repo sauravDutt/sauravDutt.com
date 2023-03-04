@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgba(250, 235, 215, 0.229);
+    background-color: rgba(205, 191, 174, 0.181);
 }
 @font-face {
     font-family: "Logo";
@@ -11,7 +11,7 @@ body {
 }
 .App {
     width: 100%;
-    background-color: rgba(250, 235, 215, 0.229);
+    background-color: rgba(250, 235, 215, 0.285);
     height: 50%;
 }
 .App-outter {
@@ -106,7 +106,7 @@ body {
 }
 .banner div {
     height: 50vh;
-    margin: 0 0 110px 0;
+    margin: 25px 0 110px 0;
     grid-template-columns: auto auto;
     box-shadow: 10px 5px 15px 1px #3e334850;
 }
