@@ -108,6 +108,7 @@ body {
     height: 50vh;
     margin: 0 0 110px 0;
     grid-template-columns: auto auto;
+    box-shadow: 10px 5px 15px 1px #3e334850;
 }
 .banner div h1 {
     margin: 0;
@@ -164,7 +165,8 @@ body {
     .banner {
         width: 100%;
     }
-    .banner div {
-        margin: 90px 0 100px 0;
+    .banner div { 
+        width: 96%;
+        margin: 90px 0 100px 10px;
     }
 }
