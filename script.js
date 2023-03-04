@@ -8,6 +8,7 @@ fetch("art.json")
             artIllustrations.forEach(el => {
                 dynamicCards += `
                 <div>
+                    <h1>${el.title}</h1>
                     <p class="card-info">
                         ${el.description}  
                     </p>
