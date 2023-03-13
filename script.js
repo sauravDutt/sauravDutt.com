@@ -10,9 +10,10 @@ fetch("art.json")
                 <div>
                     <h1>${el.title}</h1>
                     <p class="card-info">
-                        <span>"
+                        "<span>
                             ${el.description}
-                        "</span>
+                        </span>"
+                        <br/>
                         <br/>
                         <i class="fa-brands fa-ethereum"></i> ${el.price}
                     </p>

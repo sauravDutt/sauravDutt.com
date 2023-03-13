@@ -106,7 +106,7 @@ body {
 }
 .banner div {
     height: 50vh;
-    margin: 25px 0 110px 0;
+    margin: 25px 0 210px 0;
     grid-template-columns: auto auto;
     box-shadow: 10px 5px 15px 1px #3e334850;
 }
@@ -120,21 +120,22 @@ body {
     color: #390372;
 }
 .card-info {
-    width: 50%;
+    width: 90%;
     background-color: transparent;
     border-radius: 10px;
     margin: 0;
     margin-top: -20px;
     margin-left: 20px;
     padding: 15px;
+    line-height: 15px;
     font-size: 20px;
-    text-align: center;
+    text-align: justify;
     color: #390372;
 }
 .card-info span {
     font-weight: 100;
-    text-align: justify;
     font-size: 14px;
+    line-height: 8px;
 }
 .card-image {
     border-radius: 10px;
@@ -143,6 +144,12 @@ body {
     margin-top: 30px;
     margin-right: 20px;
     float: right;
+}
+
+.narator {
+    font-family: 'Logo';
+    font-size: 28px;
+    font-weight: 300;
 }
 
 @media screen and (max-width : 500px) {
@@ -173,6 +180,9 @@ body {
     }
     .banner div { 
         width: 96%;
-        margin: 145px 0 130px 10px;
+        margin: 145px 0 200px 10px;
+    }
+    .card-info {
+        margin-left: 0px;
     }
 }
