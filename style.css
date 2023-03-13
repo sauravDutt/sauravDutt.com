@@ -133,7 +133,7 @@ body {
     color: #390372;
 }
 .card-info span {
-    font-weight: 100;
+    font-weight: 100 !important;
     font-size: 14px;
     line-height: 8px;
 }
