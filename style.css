@@ -148,7 +148,7 @@ body {
 
 .narator {
     font-family: 'Logo';
-    font-size: 28px;
+    font-size: 20px !important;
     font-weight: 300;
 }
 
