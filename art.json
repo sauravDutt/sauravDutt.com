@@ -15,6 +15,14 @@
                 "description": "This is going to be some thing about Goku a paragraph, This data is coming from a JSON File and this image.",
                 "price": "1.25",
                 "Available": null
+            },
+            {
+                "id" : "3  ",
+                "imageUrl":"./res/img/pBlinders.jpeg",
+                "title" : "Peaky blinders",
+                "description": "This is going to be some thing about peaky blinders a paragraph, This data is coming from a JSON File and this image.",
+                "price": "1.25",
+                "Available": null
             }
         ]
     }
