@@ -12,7 +12,7 @@ fetch("art.json")
                     <p class="card-info">
                         "<span>
                             ${el.description}
-                            ― J.K. Rowling, Harry Potter and the Deathly Hallows
+                            
                         </span>"
                         <br/>
                         <br/>
@@ -23,4 +23,4 @@ fetch("art.json")
             `
         });
         document.getElementById('bannerContainer').innerHTML = dynamicCards;
-    });
+    });     
