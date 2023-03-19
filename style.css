@@ -152,6 +152,19 @@ body {
     font-weight: 300;
 }
 
+.footer-outter {
+    
+    height: 30vh;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    grid-template-columns: auto auto;
+    box-shadow: 10px 5px 15px 1px #3e334850;   
+    background-image: url("./res/img/dev.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 650px; 
+}
+
 @media screen and (max-width : 500px) {
     .logo h1 {
         font-size: 25px;
@@ -177,6 +190,9 @@ body {
     }
     .banner {
         width: 100%;
+    }
+    .footer-outter {
+        width: 98%;
     }
     .banner div { 
         width: 96%;
