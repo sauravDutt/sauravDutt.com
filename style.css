@@ -176,6 +176,7 @@ body {
         height: 58vh;
     }
     .app {
+        margin-top: 20px;
         justify-content: space-around;
     }
     .app div {
