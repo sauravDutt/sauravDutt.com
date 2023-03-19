@@ -19,10 +19,44 @@
             {
                 "id" : "3  ",
                 "imageUrl":"./res/img/pBlinders.jpeg",
-                "title" : "Peaky blinders",
+                "title" : "Peaky blinders.",
                 "description": "This is going to be some thing about peaky blinders a paragraph, This data is coming from a JSON File and this image.",
+                "price": "1.25",
+                "Available": null
+            },
+            {
+                "id" : "4",
+                "imageUrl":"./res/img/one.jpeg",
+                "title" : "WizKhalifa",
+                "description": "This is going to be some thing about wiz khalifa a paragraph, This data is coming from a JSON File and this image.",
+                "price": "1.25",
+                "Available": null
+            },
+            {
+                "id" : "5",
+                "imageUrl":"./res/img/four.png",
+                "title" : "Shazam!",
+                "description": "This is going to be some thing about Shazam a paragraph, This data is coming from a JSON File and this image.",
+                "price": "1.25",
+                "Available": null
+            },
+            {
+                "id" : "6",
+                "imageUrl":"./res/img/three.png",
+                "title" : "batman",
+                "description": "This is going to be some thing about Shazam a paragraph, This data is coming from a JSON File and this image.",
+                "price": "1.25",
+                "Available": null
+            },
+            {
+                "id" : "7",
+                "imageUrl":"./res/img/yo.png",
+                "title" : "Trailer park boys.",
+                "description": "This is going to be some thing about trailer park boys a paragraph, This data is coming from a JSON File and this image.",
                 "price": "1.25",
                 "Available": null
             }
         ]
     }
+    
+    
