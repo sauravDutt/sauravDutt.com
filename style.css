@@ -51,6 +51,8 @@ body {
     font-size: 13px;
 }
 .status {
+    width: 110px;
+    margin-left: -20px;
     border-radius: 10px;
     box-shadow: 10px 5px 20px 1px #0000002b;
 }
